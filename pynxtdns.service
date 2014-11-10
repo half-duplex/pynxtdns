@@ -1,0 +1,10 @@
+[Unit]
+Description=DNS to NXT API Bridge
+
+[Service]
+User=nobody
+Group=nobody
+ExecStart=/opt/pynxtdns/pynxtdns.py
+
+[Install]
+WantedBy=multi-user.target
